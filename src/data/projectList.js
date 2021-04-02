@@ -22,6 +22,10 @@ export const projectList = [
         discript: "Vue를 처음 접한 프로젝트입니다. 컴퓨터 공학과 ",
         links: [
             {
+                name: "사이트",
+                src: "https://kit-fleamarket.web.app/about"
+            },
+            {
                 name: "깃협",
                 src: "https://github.com/bepyan/kit-fleabook",
             },
