@@ -6,7 +6,7 @@ const Profile = () => {
         <Wrapper>
             <Img src={`https://avatars.githubusercontent.com/u/65283190?s=400&u=793fee7ddc4c66f600b9ca6f663b3dfd1e38b5dd&v=4`}/>
             <Cols>
-                <Title>김 평 안</Title>
+                <Title>Pyungan Kim</Title>
                 <p>도전을 두려워하지 않는 개발자입니다</p>
                 <p>간단한 자기소개 글</p>
                 
