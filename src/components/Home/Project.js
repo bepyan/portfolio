@@ -1,12 +1,14 @@
 import React from 'react'
-import { Title } from 'style'
-import BlablaWeb from './projects/BlablaWeb'
+import { SubTitle, Title } from 'style'
+import { projectList } from 'data/projectList'
 
 const Project = () => {
     return (
         <div>
             <Title>프로젝트</Title>
-            <BlablaWeb />
+            {projectList.map((item, idx) => <div key={idx}>
+                <SubTitle>{item.name}</SubTitle>
+            </div>)}
         </div>
     )
 }
