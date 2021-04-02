@@ -4,8 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+		"deploy": "yarn run build && gh-pages -d build"
   },
+	"homepage" : "https://bepyan.github.io/portfolio",
+
   "dependencies": {
     "path": "^0.12.7",
     "react": "^17.0.1",
