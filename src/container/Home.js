@@ -22,8 +22,11 @@ const Home = () => {
 }
 
 const Container = styled.div`
-    width: min(700px, 90vw);
+    width: min(800px, 90vw);
     margin: 50px auto 50px auto;
     overflow: hidden;
+    & > * {
+        margin-bottom: 4rem;
+    }
 `
 export default Home
