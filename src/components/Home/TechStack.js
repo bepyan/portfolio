@@ -5,9 +5,10 @@ import styled from 'styled-components'
 
 const TechStack = () => {
 
-    const renderStacks = (list) => list.map(item => <div key={item.stack}>
-        {item.stack} {item.rate}
-    </div>)
+    const renderStacks = (list) => list.map(item => <FlexDiv key={item.stack}>
+        <span>{item.stack}</span> 
+        <Rate>{item.rate}</Rate>
+    </FlexDiv>)
 
     return (
         <div>
@@ -23,13 +24,18 @@ const TechStack = () => {
         </div>
     )
 }
-
+const FlexDiv = styled.div`
+    display: flex;
+`
 const Row = styled.div`
     display: flex;
     & > * {
         flex: 1;
     }
 `
-
+const Rate = styled.span`
+    margin-left: auto;
+    margin-right: 2rem;
+`
 export default TechStack
 

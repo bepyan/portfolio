@@ -32,7 +32,7 @@ export const stackList = [
         ]
     },
     {
-        title: "else",
+        title: "Machine learning",
         list: [
             { stack: "Crawling", rate: 1 },
             { stack: "NLP", rate: 1 },
