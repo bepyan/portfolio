@@ -11,7 +11,7 @@ const Project = () => {
 
         return <span key={link.src}>
             {idx > 0 ? <span>, </span> : null}
-            <a href={link.src} target={link.src !== "javascript:void(0);" ? "_blank" : ""}>
+            <a href={link.src} target={link.src ? "_blank" : ""}>
                 {link.name}
             </a>
         </span>
@@ -23,22 +23,19 @@ const Project = () => {
             {projectList.map((item, idx) => <ProjectWrapper key={idx}>
                 <SubTitle style={{fontWeight: 700}}>{item.name}</SubTitle>
 
-
                 <Carousel showThumbs={item.imgs.length > 1} showArrows={false} showIndicators={false} showStatus={false}>
-
-                    {item.imgs.map(img => <div>
+                    {item.imgs.map((img, i) => <div key={i}>
                             <img src={img} alt={img}/>
                         </div>
                     )}
-
                 </Carousel>
 
-                <LiWrapper>
+                <LiWrapper >
                     <li>{item.period}</li>
                     <li>개발인원: {item.devMembers}</li>
                     <li>{item.subtitle}</li>
                     <li>{item.stack}</li>
-                    <li>{item.discript.map(e => <div>{e}</div>)}</li>
+                    <li>{item.discript.map((e, i) => <div key={i}>{e}</div>)}</li>
                     <LinksWrapper>
                         {renderLinks(item)}
                     </LinksWrapper>

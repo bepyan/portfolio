@@ -7,10 +7,13 @@ import Profile from 'components/Home/Profile'
 import Project from 'components/Home/Project'
 import TechStack from 'components/Home/TechStack'
 import Education from 'components/Home/Education'
+import ContentsAction from 'components/ContentsAction'
 
 const Home = () => {
+
     return (
         <Container>
+            <ContentsAction />
             <Profile />
             <TechStack />
             <Education />

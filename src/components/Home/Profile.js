@@ -10,9 +10,11 @@ const Profile = () => {
         <Wrapper>
             <ProfileImg src={`https://avatars.githubusercontent.com/u/65283190?s=400&u=793fee7ddc4c66f600b9ca6f663b3dfd1e38b5dd&v=4`} />
             <ProfileRight>
-                <Name>Pyungan Kim</Name>
-                <p>도전을 두려워하지 않는 개발자입니다</p>
-                <p>간단한 자기소개 글</p>
+                <Name>김평안</Name>
+                <div>
+                    <p>무거운 엉덩이를 갖고 도전을 멈추지않는 개발자입니다.</p>
+                    <p style={{marginTop: '4px'}}>사용자에게 가까운 서비스를 많이 다뤘지만 모든 서비스에 관심이 있습니다.</p>
+                </div>
                 <Links>
                     <div>
                         <img src="email.png" alt="email" />

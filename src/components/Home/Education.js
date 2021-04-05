@@ -1,7 +1,7 @@
 import React from 'react'
 import { SubTitle, Title } from 'style'
 
-const Education = () => {
+const Education = () => { 
     return (
         <div>
             <Title>학력</Title>

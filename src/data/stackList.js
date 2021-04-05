@@ -38,5 +38,9 @@ export const stackList = [
             { stack: "GTP-2", rate: 1 },
             { stack: "NLP", rate: 1 },
         ]
+    },
+    {
+        title: "",
+        list: []
     }
 ]
