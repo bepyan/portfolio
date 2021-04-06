@@ -64,7 +64,7 @@ const DiscriptWrapper = styled.div`
     & > * {
         margin-bottom: 4px;
         font-family: "SCDream3";
-        font-size: 15px;
+        font-size: 13px;
     }
 ` 
 const LinksWrapper = styled.div`
