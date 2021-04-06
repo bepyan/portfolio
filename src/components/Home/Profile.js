@@ -42,17 +42,20 @@ const Wrapper = styled.div`
     margin-bottom: 2rem;
 `
 const Name = styled.p`
-    font-weight: 900;
+    font-family: 'SCDream6';
     font-size: 30px;
     margin: 1rem 0;
 `
 const ProfileImg = styled.img`
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
+    filter: brightness(120%) contrast(85%);
+    &:hover {
+    }
 `
 const ProfileRight = styled.div`
-    margin-left: 2rem;
+    margin-left: 3rem;
     & > * {
         margin-bottom: 1rem;
     }

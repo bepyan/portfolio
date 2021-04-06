@@ -15,8 +15,8 @@ const ContentsAction = () => {
         width="33"
       />
       <p onClick={() => scroll(300)}>기술 / 스택</p>
-      <p onClick={() => scroll(700)}>학력</p>
-      <p onClick={() => scroll(900)}> 프로젝트 </p>
+      <p onClick={() => scroll(650)}>학력</p>
+      <p onClick={() => scroll(850)}> 프로젝트 </p>
       <p onClick={() => scroll(6000)}> 경력 / 수상경력 </p>
     </Wrapper>
   );

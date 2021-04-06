@@ -31,11 +31,11 @@ const Project = () => {
                 </Carousel>
 
                 <LiWrapper >
+                    <li>{item.subtitle}</li>
                     <li>{item.period}</li>
                     <li>개발인원: {item.devMembers}</li>
-                    <li>{item.subtitle}</li>
                     <li>{item.stack}</li>
-                    <li>{item.discript.map((e, i) => <div key={i}>{e}</div>)}</li>
+                    <DiscriptWrapper>{item.discript.map((e, i) => <div key={i}>{e}</div>)}</DiscriptWrapper>
                     <LinksWrapper>
                         {renderLinks(item)}
                     </LinksWrapper>
@@ -59,6 +59,14 @@ const HRLine = styled.hr`
     border-top: 1px dashed #bbb;
     border-bottom: 1px dashed #fff;
 `
+const DiscriptWrapper = styled.div`
+    margin-top: 1rem;
+    & > * {
+        margin-bottom: 4px;
+        font-family: "SCDream3";
+        font-size: 15px;
+    }
+` 
 const LinksWrapper = styled.div`
     margin-top: 1rem;
 `
