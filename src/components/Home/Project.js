@@ -21,7 +21,7 @@ const Project = () => {
         <div>
             <Title>프로젝트</Title>
             {projectList.map((item, idx) => <ProjectWrapper key={idx}>
-                <SubTitle style={{fontWeight: 700}}>{item.name}</SubTitle>
+                <SubTitle style={{fontWeight: 600, fontSize: '21px'}}>{item.name}</SubTitle>
 
                 <Carousel showThumbs={item.imgs.length > 1} showArrows={false} showIndicators={false} showStatus={false}>
                     {item.imgs.map((img, i) => <div key={i}>
@@ -50,8 +50,10 @@ const ProjectWrapper = styled.div`
     padding: 1rem 0;
 `
 const LiWrapper = styled.ul`
+    margin-top: 1rem;
     & > li {
         margin-top: 4px;
+        font-size: 15px;
     }
 `
 const HRLine = styled.hr`

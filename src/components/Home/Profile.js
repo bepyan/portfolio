@@ -8,7 +8,7 @@ const Profile = () => {
 
     return (
         <Wrapper>
-            <ProfileImg src={`https://avatars.githubusercontent.com/u/65283190?s=400&u=793fee7ddc4c66f600b9ca6f663b3dfd1e38b5dd&v=4`} />
+            <ProfileImg src={`https://user-images.githubusercontent.com/65283190/113720795-f3858800-9729-11eb-805d-6840c094260e.png`} />
             <ProfileRight>
                 <Name>김평안</Name>
                 <div>
@@ -50,7 +50,7 @@ const ProfileImg = styled.img`
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    filter: brightness(120%) contrast(85%);
+    filter: brightness(110%) contrast(95%);
     &:hover {
     }
 `

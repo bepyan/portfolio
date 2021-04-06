@@ -21,7 +21,7 @@ export const projectList = [
     {
         name: "금오공대 책 벼룩시장",
         imgs: [
-            "https://user-images.githubusercontent.com/65283190/113546655-5e9a6600-9627-11eb-882c-e1f13efb817f.png"
+            "https://user-images.githubusercontent.com/65283190/113722255-34ca6780-972b-11eb-9f79-0a2e7c9fabf9.png"
         ],
         period: "2021.02 - 2021.03",
         devMembers: "3 (8) 총 프로젝트에는 8명 참여",
