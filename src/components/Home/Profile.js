@@ -10,23 +10,24 @@ const Profile = () => {
         <Wrapper>
             <ProfileImg src={`https://user-images.githubusercontent.com/65283190/113720795-f3858800-9729-11eb-805d-6840c094260e.png`} />
             <ProfileRight>
-                <Name>김평안</Name>
+                <Name>김평안 <p style={{marginLeft: '4px'}}>bepyan@naver.com</p></Name>
+
                 <div>
-                    <p>무거운 엉덩이를 갖고 도전을 멈추지않는 개발자입니다.</p>
-                    <p style={{marginTop: '4px'}}>사용자에게 가까운 서비스를 많이 다뤘지만 모든 서비스에 관심이 있습니다.</p>
+                    <p>사람에 관심이 많은 개발자입니다.</p>
+                    <p style={{ marginTop: '5px' }}>사용자에게 어떻게 편리한 서비스를 제공할것인지,</p>
+                    <p style={{ marginTop: '5px' }}>개발자에게 좋은 코드가 무엇인지 끝없이 고민합니다.</p>
+                    <p style={{ marginTop: '10px' }}>현재 <Underline>React(Typescript)</Underline>를 주로 사용하며 Full-Stack 개발자를 목표로 공부하고 있습니다.</p>
                 </div>
+
                 <Links>
-                    <div>
-                        <img src="email.png" alt="email" />
-                        <p>bepyan@naver.com</p>
-                    </div>
                     <div onClick={() => href("https://github.com/bepyan")}>
-                        <img src="github.png" alt="github" />
-                        <p>Github</p>
+                        <img src="https://img.shields.io/badge/Github-black?style=flat-square&logo=Github&logoColor=white" />
                     </div>
                     <div onClick={() => href("https://www.notion.so/bepyan/GET-START-de49308c21884e8a8037829b0c156931")}>
-                        <img src="notion.png" alt="notion" />
-                        <p>Notion</p>
+                        <img src="https://img.shields.io/badge/Notion-black?style=flat-square&logo=Notion&logoColor=white" />
+                    </div>
+                    <div onClick={() => href("https://velog.io/@bepyan")}>
+                        <img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white" />
                     </div>
                 </Links>
             </ProfileRight>
@@ -45,6 +46,8 @@ const Name = styled.p`
     font-family: 'SCDream6';
     font-size: 30px;
     margin: 1rem 0;
+    display: flex;
+    align-items: flex-end;
 `
 const ProfileImg = styled.img`
     width: 250px;
@@ -61,15 +64,14 @@ const ProfileRight = styled.div`
     }
 `
 const Links = styled.div`
-    margin-left: 1rem;
+        display: flex;
     & > div {
         display: flex;
         align-items: center;
         cursor: pointer;
-        & > p {
-            text-decoration: underline;
-            margin-left: 8px;
-            font-size: 16px
-        }
+        margin-right: 4px;
     }
+`
+const Underline = styled.span`
+    text-decoration: underline
 `

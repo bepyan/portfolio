@@ -23,14 +23,14 @@ export const projectList = [
         imgs: [
             "https://user-images.githubusercontent.com/65283190/113722255-34ca6780-972b-11eb-9f79-0a2e7c9fabf9.png"
         ],
-        period: "2021.02 - 2021.03",
+        period: "2021.02.23 - 2021.03.07",
         devMembers: "3 (8) 총 프로젝트에는 8명 참여",
         subtitle: "벼룩시장 책 예약 사이트",
         stack: "Vue, Vuetify, Firebase",
         discript: [
-            "Vue를 처음 접한 프로젝트입니다. 총학생회 학생복지위원회와 연계하여 진행했습니다.",
-            "사용자가 핸드폰에서도 쉽게 사용할 수 있도록 간결하게 반응형 웹으로 만들었습니다.",
-            "3주 안으로 빠르게 만들어야 했기에 디자인 프레임워크 Vuetify을 사용했습니다. 전에 React로 개발한 경험이 있어서 Vue를 빠르게 습득할 수 있었습니다."
+            "총학생회 학생복지위원회와 연계하여 500명이상의 사람들에게 실질적 서비스를 제공했습니다.",
+            "사용자가 핸드폰에서도 불편함 없이 사용할 수 있도록 간결한 반응형 웹으로 만들었습니다.",
+            "Vue를 처음 접한 프로젝트입니다. 3주 안으로 빠르게 만들어야 했기에 디자인 프레임워크 Vuetify을 사용하였고 전에 React로 개발한 경험이 있어서 Vue를 빠르게 습득할 수 있었습니다."
         ],
         links: [
             {
@@ -55,11 +55,13 @@ export const projectList = [
         ],
         period: "2020.09 - 2020.11",
         devMembers: "4",
-        subtitle: "스마트 컨트랙트를 통한 안전한 중고거래 플랫폼",
+        subtitle: "스마트 컨트랙트(이더리움)를 통한 중고거래 사이트",
         stack: "React, MySQL, Firebase, BlockChain(Ethereum, Metamask, Smart Contract)",
         discript: [
-            "React를 처음 접하면서 진행한 프로젝트입니다. 빠르게 UI를 구축하기 위해 Material-ui를 사용했습니다.",
-            "JavaScript도 처음 접했던 프로젝트여서 비동기식 처리에 고생했습니다.",
+            "창의융합프로젝트 과목의 결과물이며 A+를 받았습니다.",
+            "KIT Engineering Fair 2020 일반 캡스톤디자인에 출품하여 장려상을 받았습니다.",
+            "JavaScript와 React를 처음 접했던 프로젝트이고 Material-ui를 통해 빠르게 UI를 구축했습니다",
+            "공부와 개발을 동시진행해야 했기에 비동기식 처리, Hook에 대한 이해가 부족했지만 끝내 목표한 유스케이스들을 모두 구현했습니다.",
             "메타마스크(Metamask) 크롬 플러그인을 활용하여 이더리움으로 쉽게 거래할 수 있습니다."
         ],
         links: [
@@ -87,10 +89,10 @@ export const projectList = [
         subtitle: "공공시설 조회, 여러 단체의 일정 관리, 단체 통합 SNS 시스템",
         stack: "Java, JavaFX, Network, Protocol, MySQL, CSS",
         discript: [
-            "창의프로젝트 과목의 결과물입니다.",
-            "공공데이터포털에서 전국 공공시설 개방정보 표준데이터를 통해 실제 예약이 가능한 공공시설 정보를 제공합니다.",
-            "사용자가 여러 단체에 소속되어 다양한 일정을 한눈에 볼 수 있으며 각 단체의 피드를 통합하여 볼 수 있습니다.",
-            "인스타그램을 벤치마킹하여 핸드폰 화면을 전제로 UI를 설계하였습니다. 직접 캘린더 GUI를 구현했던 것이 기억에 남습니다."
+            "창의프로젝트 과목의 결과물이며 A+를 받았습니다.",
+            "공공데이터포털의 전국 공공시설 개방정보 표준데이터를 통해 실제 예약이 가능한 공공시설 정보를 제공합니다.",
+            "인스타그램을 벤치마킹하여 핸드폰 화면의 UI를 설계하였습니다.",
+            "JavaFX에 캘린더 모듈이 없어서 직접 캘린더 GUI를 구현했던 것이 기억에 남습니다."
         ],
         links: [
             {
@@ -98,7 +100,7 @@ export const projectList = [
                 src: "https://github.com/Foumate/Forumate",
             },
         ],
-    }, 
+    },
     {
         name: "BlablaWeb (횡설수설)",
         imgs: [
@@ -131,13 +133,15 @@ export const projectList = [
         imgs: ["https://user-images.githubusercontent.com/65283190/113542750-e1b7be00-961f-11eb-8e63-1ccf7d57438b.png",
             "https://user-images.githubusercontent.com/65283190/113544670-b3d47880-9623-11eb-8e37-8e36469af616.png"],
         period: "2019.09 - 2019.11",
-        devMembers: "6",
+        devMembers: "6 (프론트 개발 2, 벡엔드 개발 2, 네트워크 개발 2) (프론트 담당)",
         subtitle: "금오공대 기숙사 관리 시스템",
         stack: "Java, JavaFX, Network, Protocol, MySQL, CSS",
         discript: [
-            "융합프로젝트 과목의 결과물입니다. 프론트, 벡엔드, 네트워크 2명씩 팀으로 구성했으며 저는 프론트를 맡았습니다.",
+            "융합프로젝트 과목의 결과물이며 A+를 받았습니다.",
             "MVC패턴으로 시스템 디랙토리 구조를 설계하려 노력했습니다.",
-            "JavaFX에서 제공하는 UI기능이 빈약하여 많은 구글링과 CSS를 활용하여 만족스러운 결과물이 나왔습니다."
+            "JavaFX에 대한 기초자료가 부족했지만 많은 구글링을 통해 원하는 기능을 구현할 수 있었습니다.",
+            "( 엣지 없애기, 프로그램 단축키 지원, 데이터 상속, 화면이동 에니메이션 모듈 등 )",
+            "또한 CSS를 활용하여 만족스러운 UI결과물을 만들어 냈습니다."
         ],
         links: [
             {
