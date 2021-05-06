@@ -10,7 +10,7 @@ const Profile = () => {
         <Wrapper>
             <ProfileImg src={`https://user-images.githubusercontent.com/65283190/113720795-f3858800-9729-11eb-805d-6840c094260e.png`} />
             <ProfileRight>
-                <Name>김평안 <p style={{marginLeft: '4px'}}>bepyan@naver.com</p></Name>
+                <Name>김평안 <span style={{ marginLeft: '4px', fontSize: 16}}>bepyan@naver.com</span></Name>
 
                 <div>
                     <p>사람에 관심이 많은 개발자입니다.</p>
