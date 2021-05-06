@@ -21,13 +21,13 @@ const Profile = () => {
 
                 <Links>
                     <div onClick={() => href("https://github.com/bepyan")}>
-                        <img src="https://img.shields.io/badge/Github-black?style=flat-square&logo=Github&logoColor=white" />
+                        <img alt="github" src="https://img.shields.io/badge/Github-black?style=flat-square&logo=Github&logoColor=white" />
                     </div>
                     <div onClick={() => href("https://www.notion.so/bepyan/GET-START-de49308c21884e8a8037829b0c156931")}>
-                        <img src="https://img.shields.io/badge/Notion-black?style=flat-square&logo=Notion&logoColor=white" />
+                        <img alt="notion" src="https://img.shields.io/badge/Notion-black?style=flat-square&logo=Notion&logoColor=white" />
                     </div>
                     <div onClick={() => href("https://velog.io/@bepyan")}>
-                        <img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white" />
+                        <img alt="velog" src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white" />
                     </div>
                 </Links>
             </ProfileRight>

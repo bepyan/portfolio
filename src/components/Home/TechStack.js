@@ -13,41 +13,34 @@ const TechStack = () => {
         3: useScrollFadeIn('left', 2, 0.3),
         4: useScrollFadeIn('left', 1, 0.4)
     };
-      
-    const renderStacks = (list) => list.map(item => <FlexDiv key={item.stack}>
-        <span>{item.stack}</span> 
-        <Rate>{item.rate}</Rate>
-    </FlexDiv>)
+
+    const Stacks = ({ list }) => list.map(item => <StackImg key={item.stack} imgUrl={item.imgUrl} />)
 
     return (
         <div>
             <Title {...animatedTitle}>기술 / 스택</Title>
             <Row>
                 {
-                    stackList.map((item, idx) => <div key={idx}  {...animatedItem[idx]}>
+                    stackList.map((item, idx) => <div key={idx}>
                         <SubTitle>{item.title}</SubTitle>
-                        {renderStacks(item.list)}
+                        <Stacks list={item.list} />
                     </div>)
                 }
             </Row>
         </div>
     )
 }
-const FlexDiv = styled.div`
-    display: flex;
+const StackImg = styled.div`
+    width: 60px;
+    height: 60px;
+    background-size: cover; 
+    background-position: center center;
+    background-image: url(${(props) => props.imgUrl});
 `
 const Row = styled.div`
-    display: flex;
-    & > * {
-        flex: 1;
+    & > div {
+        display: flex;
     }
-    & > :last-child{
-        flex: 0.3
-    }
-`
-const Rate = styled.span`
-    margin-left: auto;
-    margin-right: 2rem;
 `
 export default TechStack
 

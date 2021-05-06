@@ -109,7 +109,7 @@ export const projectList = [
         period: "2020.01 - 2020.02",
         devMembers: "3",
         subtitle: "작문 및 글쓰기 보조 사이트",
-        stack: "Python, Django, Crawing, NPL(형태소분석), Word2Vec, GTP-2",
+        stack: "Python, Django, Crawing, NLP(형태소분석), Word2Vec, GTP-2",
         discript: [
             "문장을 분석하여 수식어구를 추천하며 추가로 작문해줍니다.",
             "국립국어원 한국어기초사전, 한국문화예술위원회 사이버문학광장을 크롤링하여 데이터셋을 추출했습니다.",
